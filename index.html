@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/x-icon" href="images/b.jfif" />
+    <b><title>Portfolio - Uday Kumar</title></b> 
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> Uday Kumar Veeradasari  </div>
+            <ul class="nav-links">
+
+                <li><a href="#home ">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li> 
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+    
+            </ul>
+             <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>   
+    <section id="home">
+        <h2>Welcome to Uday Kumar's Portfolio</h2>
+        <p>Java Full Stack Developer.</p>
+    </section><br>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I’m Uday Kumar, a motivated Java Full Stack Developer with hands-on experience in Java, Spring Boot, SQL, and front-end development. I am eager to apply my technical skills, learn from real-world projects, and contribute to building efficient and impactful software solutions..</p>
+    </section><br><br>
+
+     <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3><u>Core java & Advanced Java</u></h3>
+                <p>Core Java: Basics of Java, OOP concepts, data types, collections, exceptions, multithreading.<br>
+Advanced Java: JDBC, Servlets, JSP, web applications, session management, database connectivity.</p>
+            </div>
+            <div class="skill">
+                <h3><u>Spring Boot</u></h3>
+                <p>Framework for building standalone Java applications with auto-configuration, embedded servers, REST APIs, and minimal setup.</p>
+            </div>
+            <div class="skill">
+                <h3><u>Web Developemnt</u></h3>
+                <p>Process of creating websites and web applications using frontend, backend technologies, databases, servers, and deployment tools.</p>
+            </div>
+            <div class="skill">
+                <h3><u>SQL</u></h3>
+                <p>Language for managing and querying relational databases using tables, joins, constraints, functions, and data manipulation commands.</p>
+            </div>
+            <div class="skill">
+                <h3><u>Reasoning & Problem-Solving</u></h3>
+                <p>Ability to analyze situations logically, identify patterns, evaluate solutions, and make effective decisions to solve complex problems efficiently</p>
+            </div>
+        </div>
+    </section>
+
+     <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <img src="images/a.jpg" alt="Project : Employee Management System">
+                <div class="project-content">
+                    <h3>Employee Management System</h3>
+                    <p>•	Analyzing the requirement and impact on other part of the application<br>
+                       •	Worked closely with product owner in getting the clarification on requirements•	<br>                        
+                       •     Designing view layer as per the requirements using React/ReactJS components.<br> 
+                       •    Implementing REST API’s and their Implementation with Spring Boot framework.<br>
+                       •	Testing the REST API’s by using postman tool. <br>
+                       •	Responsible for writing Persistence layer using spring data JPA.<br>
+                       •	Updating application.properties or application.yml files as per configuration.<br>
+</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+        <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post" aria-label="Contact Form">
+            <input type="text" name="name" placeholder="Your Name" required aria-required="true">
+            <input type="email" name="email" placeholder="Your Email" required aria-required="true">
+            <textarea name="message" placeholder="Your Message" rows="5" required aria-required="true"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p style="text-align: center; margin-top: 1rem;">Alternatively, reach out via : udaykumarveeradasari@gmail.com</p>
+    </section>
+
+      <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    
+
+     <footer>
+        <p>&copy; Uday Kumar@2026. All rights reserved.</p>
+    </footer> 
+</body>
+</html>
